@@ -1,0 +1,27 @@
+@import url('https://fonts.googleapis.com/css2?family=Yanone+Kaffeesatz&display=swap');
+
+*{
+    text-align: center;
+    font-family: 'Yanone Kaffeesatz', sans-serif;
+    font-size: 24px;
+}
+h1{
+    color:  rgb(219, 86, 86);
+    font-size: 36px;
+}
+h2{
+    color:  rgb(219, 86, 86);
+    font-size: 30px;
+}
+img{
+    height: auto;
+    width: 600px;
+    border-radius: 10px;
+}
+ol{
+    list-style-position:inside;
+}
+ul{
+    list-style-type: none;
+}
+
