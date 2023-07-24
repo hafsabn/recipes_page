@@ -1,11 +1,8 @@
-# Odin_projects
-Here i will add all the projects that i have made in TOP
-
 # Description
 
-This repository serves as a personal practice project for HTML and CSS. It includes a collection of web pages that i use it to practice and refine my HTML and CSS skills.
+This repository contains the code for a website project completed as part of The Odin Project curriculum. It's a small project that showcases my initial steps into web development and designThe website was designed using Figma, and I implemented it using HTML and CSS. Feel free to explore the site and provide any feedback or suggestions
 
-# Projects
+## Demo
 
--  ### First project: [odin-recipes]() 
+To see the pages [click here](https://hafsabn.github.io/Odin_recipes_project/)
 
