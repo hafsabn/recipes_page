@@ -7,36 +7,86 @@
 body{
     background-color: #111427;
 }
-h1{
-    margin: 20px auto;
-    width: 311px;
-    height: 70px;
-    align-items: center;
-    color: #E3B261;
-    font-size: 75px;
-    font-weight: 700;
+.right_side{
+    width: 538px;
+    box-sizing: border-box;
+    
 }
-h2{
-    color: #FFEDCB;
-    margin-bottom:10px ;
-    font-size: 40px;
+.img1{
+    width: 600px;
+    height: 600px;
+    position: absolute;
+    right: 50px;
+    bottom: 0;
+    z-index: 1;
+ 
 }
-.first_project{
-    margin: 50px;
-    background-color: #E3B261;
-    width: 270px;
-    border-radius: 10px;
-    text-align: center;
-    padding: 20px;
+.img2{
+    width: 280px;
+    height: 660px;
+    position: absolute;
+    right: 200px;
+    bottom: 0;
+    z-index: 2;
+ 
+}
+h1 {
+    font-size: 200px;
+    color: #FFFEFD;
+    margin: 70px;
+}
+h1 span{
+    width: 859px;
+    display: block;
+    color: #FF6288;
+}
+.recipes_list {
+    list-style-type: none;
+    display: flex;
+    text-decoration: none;
+}
+.recipes_list li{
+    font-size: 45px;
+    margin-left: 100px;
+    font-weight: bold;
+}
+.recipes_list li a{
+    position: relative;
+    text-decoration: none;
+    color: #FFFEFD;
+    transform: translate(-50%, -50%);
 
 }
-.first_project a {
-    display: inline-block;
-    background-color: #111427;
-    color: #FFEDCB;
-    text-decoration: none;
-    padding: 8px;
+.recipes_list li a div{
+    position: absolute;
+    transform: translate(-50%, -50%);
+    height: 20px;
+    width: 120px;
+    top: 80%;
+    margin-left: 50px;
+    background-color: #FF6288;
+    z-index: -1;
     border-radius: 5px;
-    margin-top:10px ;
-    width: 250px;
+    transition: all 0.3s;
+}
+.recipes_list li a:hover div{
+    height: 40px;
+    width: 120px;
+    top: 50%;
+}
+
+.properties_list{
+    margin-left: 40px;
+    margin-right: 10px;
+    display: flex;
+    flex-direction: row;
+    list-style-type: none;
+    justify-content: space-between;
+    margin-top: 150px;
+}
+.properties_list li{    
+    color: #FFFEFD;
+    font-size: 24px;
+    font-weight: 400;
+    z-index: 3;
 }
