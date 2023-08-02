@@ -4,28 +4,27 @@
     font-family: 'Yanone Kaffeesatz', sans-serif;
     font-size: 24px;
     color: #FFFEFD;
-    margin-left:10px ;
+
 }
 body{
     background-color: #111427;
+    padding: 16px;
 }
 h1{
     color:  #FF6288;
     font-size: 100px;
     
 }
-.content{
-    margin-bottom: 10%;
+.container{
+    display: flex;
+    gap: 20px;
 }
+
 h2{
     color:  #FF6288;
     font-size: 50px;
 }
 img{
-    position: absolute;
-    top: 0;
-    right: -10px;
-    margin: 0 10px 10px 0;
     width: 50%;
     height: 600px;
     border-radius: 5px;
@@ -36,9 +35,7 @@ ol{
 ul{
     list-style-type: none;
 }
-p{
-    width: 40%;
-}
+
 li,p{
     font-size: 50px;
     font-weight: 500;
