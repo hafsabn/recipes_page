@@ -4,5 +4,5 @@ This repository contains the code for a website project completed as part of The
 
 ## Demo
 
-To see the pages [click here](https://hafsabn.github.io/Odin_recipes_project/)
+To see the pages [click here](https://hafsabn.github.io/recipes_page/)
 
