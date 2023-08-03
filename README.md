@@ -6,6 +6,6 @@ This repository contains the code for a website project completed as part of The
 
 To see the pages [click here](https://hafsabn.github.io/recipes_page/)
 
-##Credit
+## Credit
 
 The photos i used and the content are all from [allrecipes website](https://www.allrecipes.com/)
